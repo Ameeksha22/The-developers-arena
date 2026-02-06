@@ -98,6 +98,8 @@ buisness-website/
 ## 📸 Screenshots
 
 Screenshots of Home, About, Services, and Contact pages were captured after deployment to demonstrate functionality.
+<img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/d58d1ae9-8f82-417e-b60e-eb5fc4e51a62" />
+
 
 ---
 
