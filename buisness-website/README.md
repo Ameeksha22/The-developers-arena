@@ -98,8 +98,15 @@ buisness-website/
 ## 📸 Screenshots
 
 Screenshots of Home, About, Services, and Contact pages were captured after deployment to demonstrate functionality.
-<img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/d58d1ae9-8f82-417e-b60e-eb5fc4e51a62" />
+<img width="1919" height="876" alt="image" src="https://github.com/user-attachments/assets/f8448215-43f8-4a10-904a-216fb6b20be6" />
 
+<img width="1919" height="881" alt="image" src="https://github.com/user-attachments/assets/be67096d-784e-461f-8682-ec8b6c7dea8b" />
+
+<img width="1919" height="874" alt="image" src="https://github.com/user-attachments/assets/1a8b55d6-752f-4dfd-a21a-69964f697584" />
+
+<img width="1919" height="878" alt="image" src="https://github.com/user-attachments/assets/3eecf5b6-6ba9-47ca-9b48-5ec6c6f529d5" />
+
+<img width="1919" height="872" alt="image" src="https://github.com/user-attachments/assets/e4687a92-aef9-4d14-aae7-040bec26401a" />
 
 ---
 
