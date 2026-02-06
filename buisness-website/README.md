@@ -54,7 +54,7 @@ buisness-website/
 ├── css/
 │ └── style.css
 └── js/
-└── script.js
+  └── script.js
 
 
 ---
