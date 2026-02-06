@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #222;
+}
+
+.navbar h1 {
+  color: #fff;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+/* Hero */
+.hero {
+  padding: 3rem;
+  text-align: center;
+  background: #eaeaea;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background: #222;
+  color: white;
+  text-decoration: none;
+}
+
+/* Content */
+.content {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Cards */
+.services-preview {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.card, .service-box {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 5px;
+  flex: 1;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  margin-bottom: 1rem;
+  padding: 10px;
+}
+
+form button {
+  padding: 10px;
+  background: #222;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .services-preview {
+    flex-direction: column;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+  }
+}
