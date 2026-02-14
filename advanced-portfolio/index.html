@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Advanced Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="layout">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container header__inner">
+        <div class="header__brand">
+          <span class="header__logo" aria-hidden="true">AJ</span>
+          <div class="header__text">
+            <p class="header__name">Ameeksha Jakar</p>
+            <p class="header__role">Frontend Developer</p>
+          </div>
+        </div>
+
+        <nav class="nav" aria-label="Primary">
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#projects">Projects</a></li>
+            <li class="nav__item"><a class="nav__link" href="#about">About</a></li>
+            <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <button class="btn btn--ghost header__theme" type="button" aria-label="Toggle theme">
+          Theme
+        </button>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main id="main" class="main">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <p class="badge">CSS Grid • Flexbox • Animations • BEM</p>
+            <h1 class="hero__title">Advanced Portfolio with Modern CSS</h1>
+            <p class="hero__subtitle">
+              A clean, responsive portfolio layout using CSS Grid for structure, Flexbox for components,
+              variables for theming, and smooth animations.
+            </p>
+
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#projects">View Projects</a>
+              <a class="btn btn--ghost" href="#contact">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="hero__card card card--featured">
+            <h2 class="card__title">Quick Highlights</h2>
+            <ul class="list">
+              <li class="list__item">Mobile-first responsive design</li>
+              <li class="list__item">Theme system using CSS variables</li>
+              <li class="list__item">Accessible focus states</li>
+              <li class="list__item">Reduced motion support</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section projects">
+        <div class="container">
+          <h2 class="section__title">Projects</h2>
+          <p class="section__desc">Hover cards for smooth transitions, grid for layout.</p>
+
+          <div class="projects__grid">
+            <article class="card project-card">
+              <div class="card__meta">
+                <h3 class="card__title">Business Website</h3>
+                <span class="pill">HTML/CSS/JS</span>
+              </div>
+              <p class="card__text">
+                Responsive landing page with interactive buttons and clean UI layout.
+              </p>
+              <div class="card__actions">
+                <a class="btn btn--small btn--primary" href="#" aria-label="Open project demo">Demo</a>
+                <a class="btn btn--small btn--ghost" href="#" aria-label="Open project code">Code</a>
+              </div>
+            </article>
+
+            <article class="card project-card">
+              <div class="card__meta">
+                <h3 class="card__title">E-Learning UI</h3>
+                <span class="pill">Node/EJS</span>
+              </div>
+              <p class="card__text">
+                Multi-page layout with structured views and reusable components.
+              </p>
+              <div class="card__actions">
+                <a class="btn btn--small btn--primary" href="#">Demo</a>
+                <a class="btn btn--small btn--ghost" href="#">Code</a>
+              </div>
+            </article>
+
+            <article class="card project-card">
+              <div class="card__meta">
+                <h3 class="card__title">Sign Language Translator</h3>
+                <span class="pill">Python/CV</span>
+              </div>
+              <p class="card__text">
+                AI-based gesture recognition pipeline with OpenCV and CNN.
+              </p>
+              <div class="card__actions">
+                <a class="btn btn--small btn--primary" href="#">Demo</a>
+                <a class="btn btn--small btn--ghost" href="#">Code</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section about">
+        <div class="container about__grid">
+          <div class="about__content">
+            <h2 class="section__title">About</h2>
+            <p class="section__desc">
+              I build clean UI with modern CSS and focus on accessibility + performance.
+            </p>
+            <div class="about__tags">
+              <span class="pill pill--soft">CSS Grid</span>
+              <span class="pill pill--soft">Flexbox</span>
+              <span class="pill pill--soft">BEM</span>
+              <span class="pill pill--soft">Animations</span>
+            </div>
+          </div>
+
+          <aside class="card about__card">
+            <h3 class="card__title">Skills Snapshot</h3>
+            <ul class="list list--cols">
+              <li class="list__item">HTML5</li>
+              <li class="list__item">CSS3</li>
+              <li class="list__item">JavaScript</li>
+              <li class="list__item">Responsive UI</li>
+              <li class="list__item">Git/GitHub</li>
+              <li class="list__item">Basic Node</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section contact">
+        <div class="container">
+          <h2 class="section__title">Contact</h2>
+          <p class="section__desc">Let’s build something awesome.</p>
+
+          <div class="contact__grid">
+            <div class="card contact__card">
+              <h3 class="card__title">Message</h3>
+              <form class="form">
+                <label class="form__label">
+                  Name
+                  <input class="form__input" type="text" placeholder="Your name" required />
+                </label>
+                <label class="form__label">
+                  Email
+                  <input class="form__input" type="email" placeholder="you@example.com" required />
+                </label>
+                <label class="form__label">
+                  Message
+                  <textarea class="form__input form__input--area" rows="4" placeholder="Write here..." required></textarea>
+                </label>
+                <button class="btn btn--primary" type="submit">Send</button>
+              </form>
+            </div>
+
+            <div class="card contact__card">
+              <h3 class="card__title">Links</h3>
+              <ul class="list">
+                <li class="list__item"><a class="link" href="#">GitHub</a></li>
+                <li class="list__item"><a class="link" href="#">LinkedIn</a></li>
+                <li class="list__item"><a class="link" href="#">Email</a></li>
+              </ul>
+              <p class="muted">Tip: Add real URLs here.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="footer__text">© <span id="year"></span> Advanced Portfolio</p>
+        <p class="footer__text footer__text--small">Built with CSS Grid + BEM</p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const btn = document.querySelector(".header__theme");
+    btn.addEventListener("click", () => {
+      const html = document.documentElement;
+      const next = html.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      html.setAttribute("data-theme", next);
+    });
+  </script>
+</body>
+</html>
